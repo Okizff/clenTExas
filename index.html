@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshNest Cleaning | Professional Cleaning Services in Austin, TX</title>
+  <meta name="description" content="Reliable residential and commercial cleaning services across Austin, Texas. Get a free quote today for regular, deep, or move-in cleaning.">
+  
+  <!-- Inter Font & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Local Business Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "FreshNest Cleaning",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=1200",
+    "telephone": "+1-512-555-0147",
+    "email": "hello@freshnestcleaning.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#home" class="logo nav-link" data-page="home">
+        <i class="fa-solid fa-sparkles logo-icon"></i>
+        <span>FreshNest <span class="logo-sub">Cleaning</span></span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home" class="nav-link active" data-page="home">Home</a>
+        <a href="#services" class="nav-link" data-page="services">Services</a>
+        <a href="#about" class="nav-link" data-page="about">About</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary header-cta nav-link" data-page="contact">Get a Free Quote</a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <nav class="mobile-nav">
+        <a href="#home" class="mobile-nav-link active" data-page="home">Home</a>
+        <a href="#services" class="mobile-nav-link" data-page="services">Services</a>
+        <a href="#about" class="mobile-nav-link" data-page="about">About</a>
+        <a href="#contact" class="mobile-nav-link" data-page="contact">Contact</a>
+        <a href="#contact" class="btn btn-primary mobile-cta nav-link" data-page="contact">Get a Free Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- PAGE: HOME -->
+    <section id="page-home" class="page-section active">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <div class="badge">
+              <i class="fa-solid fa-location-dot"></i> Serving Austin, Texas & Surrounding Areas
+            </div>
+            <h1>Fresh, Clean Spaces.<br><span class="highlight">A Better Way to Come Home.</span></h1>
+            <p class="hero-lead">Reliable residential and commercial cleaning services tailored to your lifestyle. Exceptional detail, eco-conscious products, and effortless scheduling.</p>
+            
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary nav-link" data-page="contact">Get a Free Quote</a>
+              <a href="#services" class="btn btn-outline nav-link" data-page="services">Explore Services</a>
+            </div>
+
+            <div class="trust-indicators">
+              <div class="trust-item"><i class="fa-solid fa-circle-check"></i> Reliable & Vetted</div>
+              <div class="trust-item"><i class="fa-solid fa-leaf"></i> Eco-Friendly Options</div>
+              <div class="trust-item"><i class="fa-solid fa-shield-heart"></i> Satisfaction Focused</div>
+            </div>
+          </div>
+          
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=1000" alt="Professional cleaner carrying cleaning supplies in a modern home" class="hero-img" loading="eager">
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Preview -->
+      <section class="section bg-light">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-tag font-accent">What We Do</span>
+            <h2>Cleaning Services That Fit Your Needs</h2>
+            <p>From routine home maintenance to deep sanitization, we keep your spaces immaculate.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="card service-card">
+              <div class="card-icon"><i class="fa-solid fa-house font-accent"></i></div>
+              <h3>Regular Cleaning</h3>
+              <p>Keep your home consistently fresh with flexible weekly, bi-weekly, or monthly cleaning routines.</p>
+              <div class="card-price">From <span>$120</span></div>
+              <a href="#services" class="card-link nav-link" data-page="services">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="card service-card">
+              <div class="card-icon"><i class="fa-solid fa-sparkles font-accent"></i></div>
+              <h3>Deep Cleaning</h3>
+              <p>A comprehensive top-to-bottom clean focusing on neglected areas, baseboards, and built-up grime.</p>
+              <div class="card-price">From <span>$200</span></div>
+              <a href="#services" class="card-link nav-link" data-page="services">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="card service-card">
+              <div class="card-icon"><i class="fa-solid fa-truck-ramp-box font-accent"></i></div>
+              <h3>Move-In / Move-Out</h3>
+              <p>Ensure a pristine reset for your new home or make your former space spotless for landlord inspection.</p>
+              <div class="card-price">From <span>$250</span></div>
+              <a href="#services" class="card-link nav-link" data-page="services">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="card service-card">
+              <div class="card-icon"><i class="fa-solid fa-building font-accent"></i></div>
+              <h3>Office Cleaning</h3>
+              <p>Tailored commercial space upkeep to ensure a hygienic, organized, and welcoming business environment.</p>
+              <div class="card-price"><span>Custom Quote</span></div>
+              <a href="#services" class="card-link nav-link" data-page="services">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-tag font-accent">The FreshNest Difference</span>
+            <h2>Why Austin Trusts FreshNest</h2>
+            <p>We treat every residential and commercial property with the high level of care it deserves.</p>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+              <h4>Trusted Professionals</h4>
+              <p>Thoroughly background-checked and trained cleaners who value your personal space and privacy.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-calendar-check"></i></div>
+              <h4>Flexible Scheduling</h4>
+              <p>Seamless online booking and adaptable appointment slots tailored to your busy daily routine.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <h4>Detail-Oriented Service</h4>
+              <p>We don't cut corners. Our comprehensive multi-point checklists guarantee every spot is addressed.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+              <h4>Quality You Can Count On</h4>
+              <p>If something isn't up to your standard, let us know within 24 hours and we'll re-clean it promptly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Preview -->
+      <section class="section bg-light">
+        <div class="container story-grid">
+          <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=900" alt="Clean modern living room in Austin" class="rounded-img" loading="lazy">
+          </div>
+          <div class="story-content">
+            <span class="section-tag font-accent">Local Austin Business</span>
+            <h2>Carefully Cleaning Austin Homes & Business Workspaces</h2>
+            <p>FreshNest Cleaning was built on a simple premise: bringing reliable, top-grade home care to families and businesses across Austin, Texas. We take pride in building long-term trust through honest work, clear communication, and consistent quality.</p>
+            <p>Whether you live in central Austin, South Lamar, or the surrounding neighborhoods, our mission is to make your space feel revitalized every single time.</p>
+            <a href="#about" class="btn btn-primary nav-link margin-top-sm" data-page="about">Learn More About Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-tag font-accent">Client Feedback</span>
+            <h2>What Our Clients Say</h2>
+            <p>Read experiences shared by our homeowners and office managers in Austin.</p>
+            <div class="demo-badge-inline"><i class="fa-solid fa-info-circle"></i> Demo testimonials (Placeholder)</div>
+          </div>
+
+          <div class="testimonials-grid">
+            <div class="card testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"FreshNest has completely transformed my weekends! Coming home after a long work week to a spotless apartment in Downtown Austin is the absolute best feeling."</p>
+              <div class="testimonial-author">
+                <strong>Sarah M.</strong>
+                <span>Homeowner in Downtown Austin</span>
+              </div>
+            </div>
+
+            <div class="card testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"The Move-In cleaning service saved us so much stress during our house move. Baseboards, kitchen cabinets, and bathrooms were completely immaculate."</p>
+              <div class="testimonial-author">
+                <strong>David L.</strong>
+                <span>Resident in South Congress</span>
+              </div>
+            </div>
+
+            <div class="card testimonial-card">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Punctual, thorough, and very courteous. Our tech agency office stays fresh and clean every single week thanks to the FreshNest cleaning crew."</p>
+              <div class="testimonial-author">
+                <strong>Elena R.</strong>
+                <span>Office Manager, Austin TX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Banner -->
+      <section class="section cta-banner">
+        <div class="container text-center text-white">
+          <h2>Ready for a Fresher Space?</h2>
+          <p class="cta-lead">Tell us what you need cleaned and we'll help you find the right schedule and estimate.</p>
+          <a href="#contact" class="btn btn-accent btn-lg nav-link" data-page="contact">Get Your Free Quote</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE: SERVICES -->
+    <section id="page-services" class="page-section">
+      <div class="page-header">
+        <div class="container text-center">
+          <h1>Cleaning Services for Every Space</h1>
+          <p>Professional cleaning solutions designed around your home, business, and daily schedule.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container services-detail-list">
+          
+          <!-- Regular Cleaning -->
+          <div class="service-detail-card">
+            <div class="service-detail-content">
+              <div class="badge-price">From $120</div>
+              <h2>Regular Cleaning</h2>
+              <p>Ideal for maintaining a clean and healthy home on a consistent routine basis. We handle everyday dust, surfaces, and high-use areas with precision.</p>
+              
+              <h4>What's included in Regular Cleaning:</h4>
+              <ul class="checklist">
+                <li><i class="fa-solid fa-check font-accent"></i> Dusting accessible surfaces, furniture & frames</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Vacuuming carpets, rugs & hard floors</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Mopping all hard floor surfaces</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Complete kitchen surface cleaning & countertop wipe-down</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Bathroom cleaning, mirror polishing & sanitization</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Trash removal and liner replacement</li>
+              </ul>
+              
+              <a href="#contact" class="btn btn-primary nav-link margin-top-md" data-page="contact">Request Regular Clean</a>
+            </div>
+            <div class="service-detail-image">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800" alt="Clean modern kitchen island and living room" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Deep Cleaning -->
+          <div class="service-detail-card reverse">
+            <div class="service-detail-content">
+              <div class="badge-price">From $200</div>
+              <h2>Deep Cleaning</h2>
+              <p>An intensive, top-to-bottom clean designed to remove built-up dirt, dust behind furniture, and neglected surfaces across your property.</p>
+              
+              <h4>What's included in Deep Cleaning:</h4>
+              <ul class="checklist">
+                <li><i class="fa-solid fa-check font-accent"></i> Everything included in Regular Cleaning</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Detailed dusting of baseboards, doors & window sills</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Deep kitchen scrub (exterior appliances & cabinet doors)</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Deep bathroom grout scrub & limescale treatment</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Cleaning hard-to-reach ceiling fans & light fixtures</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Thorough floor edge care and under-furniture vacuuming</li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary nav-link margin-top-md" data-page="contact">Request Deep Clean</a>
+            </div>
+            <div class="service-detail-image">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=800" alt="Bathroom deep cleaning service" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Move-In / Move-Out -->
+          <div class="service-detail-card">
+            <div class="service-detail-content">
+              <div class="badge-price">From $250</div>
+              <h2>Move-In / Move-Out Cleaning</h2>
+              <p>Designed for real estate agents, landlords, buyers, and tenants. We prepare properties for instant move-in or landlord handover inspections.</p>
+              
+              <h4>What's included in Move-In / Move-Out:</h4>
+              <ul class="checklist">
+                <li><i class="fa-solid fa-check font-accent"></i> Deep cleaning inside empty cabinets, drawers & closets</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Inside oven & refrigerator interior cleaning options</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Complete wall spot cleaning and baseboard wipe-down</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Detailed kitchen & bathroom fixtures polishing</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Interior window & glass doors cleaning</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Complete floor sanitization and prep</li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary nav-link margin-top-md" data-page="contact">Request Move-In Clean</a>
+            </div>
+            <div class="service-detail-image">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" alt="Empty clean room ready for move-in" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Office Cleaning -->
+          <div class="service-detail-card reverse">
+            <div class="service-detail-content">
+              <div class="badge-price">Custom Quote</div>
+              <h2>Commercial & Office Cleaning</h2>
+              <p>Keep your office space clean, professional, and healthy for team members and visiting clients. Custom schedules available daytime or after-hours.</p>
+              
+              <h4>What's included in Office Cleaning:</h4>
+              <ul class="checklist">
+                <li><i class="fa-solid fa-check font-accent"></i> Desk, workspace & common area surface sanitization</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Restroom cleaning, restocking supplies & sanitization</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Kitchenette and employee break room cleaning</li>
+                <li><i class="fa-solid fa-check font-accent"></i> High-traffic floor vacuuming and hard floor cleaning</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Trash & recycling bin emptying</li>
+                <li><i class="fa-solid fa-check font-accent"></i> Glass door and entry point cleaning</li>
+              </ul>
+
+              <a href="#contact" class="btn btn-primary nav-link margin-top-md" data-page="contact">Get Custom Commercial Quote</a>
+            </div>
+            <div class="service-detail-image">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Modern clean office space" loading="lazy">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Consultative Banner -->
+      <section class="section bg-light">
+        <div class="container text-center">
+          <h2>Not sure which service you need?</h2>
+          <p class="lead-text">Our team is happy to help you select the ideal cleaning plan for your home or commercial space in Austin.</p>
+          <a href="#contact" class="btn btn-primary btn-lg nav-link margin-top-sm" data-page="contact">Get a Free Consultation</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE: ABOUT -->
+    <section id="page-about" class="page-section">
+      <div class="page-header">
+        <div class="container text-center">
+          <h1>About FreshNest Cleaning</h1>
+          <p>Local Austin cleaning company dedicated to quality, attention to detail, and trustworthy service.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container story-grid">
+          <div class="story-content">
+            <span class="section-tag font-accent">Our Mission</span>
+            <h2>Creating Fresh, Healthy Environments across Austin, TX</h2>
+            <p>FreshNest Cleaning was established with a focused goal: to raise the standard for residential and office cleaning in Austin through accountability, meticulous attention to detail, and customer-first care.</p>
+            <p>We understand that inviting someone into your home or workplace requires confidence. That is why we focus on background-checked personnel, strict quality checks, and clear communication from quote to job completion.</p>
+            <p>Whether preparing a home for a new family or maintaining a weekly clean routine, we treat every space as if it were our own.</p>
+          </div>
+          <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=900" alt="Cleaning team member at work" class="rounded-img" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <!-- Core Values -->
+      <section class="section bg-light">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-tag font-accent">Our Values</span>
+            <h2>Why Choose FreshNest?</h2>
+            <p>The principles that guide our everyday work across Austin homes and offices.</p>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-heart"></i></div>
+              <h4>Attention to Detail</h4>
+              <p>We notice the small spots others miss—from baseboards and door handles to hidden dust under edges.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-handshake"></i></div>
+              <h4>Dependable Service</h4>
+              <p>We respect your time. Expect punctual arrivals, efficient cleaning, and consistent communication.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h4>Customer-First Approach</h4>
+              <p>Your satisfaction is our primary metric. We tailor our services directly to your preferences.</p>
+            </div>
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-broom"></i></div>
+              <h4>Professional Standards</h4>
+              <p>Equipped with commercial-grade vacuums, effective solutions, and trained personnel for peace of mind.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to action -->
+      <section class="section text-center">
+        <div class="container">
+          <h2>Experience the FreshNest Quality</h2>
+          <p class="lead-text">Let us take cleaning off your to-do list today.</p>
+          <a href="#contact" class="btn btn-primary btn-lg nav-link margin-top-sm" data-page="contact">Contact Our Team</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- PAGE: CONTACT -->
+    <section id="page-contact" class="page-section">
+      <div class="page-header">
+        <div class="container text-center">
+          <h1>Let's Get Your Space Fresh & Clean</h1>
+          <p>Request a free quote or reach out to our team in Austin, Texas.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-layout">
+            
+            <!-- Contact Info Sidebar -->
+            <div class="contact-info-card">
+              <h3>Get in Touch</h3>
+              <p>Have questions about our cleaning services or want to talk directly? Reach out anytime!</p>
+
+              <div class="contact-meta">
+                <div class="meta-item">
+                  <i class="fa-solid fa-phone font-accent"></i>
+                  <div>
+                    <strong>Phone</strong>
+                    <a href="tel:15125550147">+1 (512) 555-0147</a>
+                  </div>
+                </div>
+
+                <div class="meta-item">
+                  <i class="fa-solid fa-envelope font-accent"></i>
+                  <div>
+                    <strong>Email</strong>
+                    <a href="mailto:hello@freshnestcleaning.com">hello@freshnestcleaning.com</a>
+                  </div>
+                </div>
+
+                <div class="meta-item">
+                  <i class="fa-solid fa-location-dot font-accent"></i>
+                  <div>
+                    <strong>Service Area</strong>
+                    <span>Austin, Texas & Surrounding Areas</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Google Maps Container Placeholder -->
+              <div class="map-wrapper margin-top-md">
+                <iframe 
+                  title="Austin Texas Service Area Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215392.21381285372!2d-97.89348512217112!3d30.307982708304918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc0391%3A0x2320b99136125037!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                  width="100%" 
+                  height="220" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+
+            <!-- Forms Container with Tabs -->
+            <div class="contact-forms-container">
+              
+              <div class="form-tabs">
+                <button class="tab-btn active" id="tabQuoteBtn" data-target="formQuote">Request a Free Quote</button>
+                <button class="tab-btn" id="tabContactBtn" data-target="formContact">General Message</button>
+              </div>
+
+              <!-- SUCCESS MESSAGE ALERT -->
+              <div id="formSuccessAlert" class="alert alert-success hidden">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <h4 id="successTitle">Thank You!</h4>
+                  <p id="successMessage">Your request has been received. We will contact you shortly with your free estimate.</p>
+                </div>
+              </div>
+
+              <!-- FORM 1: FREE QUOTE FORM -->
+              <form id="formQuote" class="app-form active-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="quoteName">Full Name <span class="required">*</span></label>
+                    <input type="text" id="quoteName" class="form-control" placeholder="e.g. Sarah Jenkins" required>
+                    <span class="error-msg">Please enter your full name</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="quoteEmail">Email Address <span class="required">*</span></label>
+                    <input type="email" id="quoteEmail" class="form-control" placeholder="sarah@example.com" required>
+                    <span class="error-msg">Please enter a valid email address</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="quotePhone">Phone Number</label>
+                    <input type="tel" id="quotePhone" class="form-control" placeholder="(512) 000-0000">
+                  </div>
+                  <div class="form-group">
+                    <label for="quoteProperty">Property Type <span class="required">*</span></label>
+                    <select id="quoteProperty" class="form-control" required>
+                      <option value="">Select Property Type...</option>
+                      <option value="House">House</option>
+                      <option value="Apartment">Apartment</option>
+                      <option value="Office">Office / Commercial</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <span class="error-msg">Please select a property type</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="quoteService">Service Needed <span class="required">*</span></label>
+                    <select id="quoteService" class="form-control" required>
+                      <option value="">Select Service...</option>
+                      <option value="Regular Cleaning">Regular Cleaning (From $120)</option>
+                      <option value="Deep Cleaning">Deep Cleaning (From $200)</option>
+                      <option value="Move-In / Move-Out">Move-In / Move-Out (From $250)</option>
+                      <option value="Office Cleaning">Office Cleaning (Custom Quote)</option>
+                    </select>
+                    <span class="error-msg">Please select a service</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="quoteDate">Preferred Date</label>
+                    <input type="date" id="quoteDate" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="quoteBedrooms">Bedrooms</label>
+                    <select id="quoteBedrooms" class="form-control">
+                      <option value="1">1 Bedroom</option>
+                      <option value="2">2 Bedrooms</option>
+                      <option value="3" selected>3 Bedrooms</option>
+                      <option value="4">4 Bedrooms</option>
+                      <option value="5+">5+ Bedrooms</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="quoteBathrooms">Bathrooms</label>
+                    <select id="quoteBathrooms" class="form-control">
+                      <option value="1">1 Bathroom</option>
+                      <option value="2" selected>2 Bathrooms</option>
+                      <option value="3">3 Bathrooms</option>
+                      <option value="4+">4+ Bathrooms</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="quoteDetails">Additional Details</label>
+                  <textarea id="quoteDetails" rows="3" class="form-control" placeholder="Square footage, pets, special focus areas, or access instructions..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-lg">
+                  <span class="btn-text">Request My Free Quote</span>
+                  <span class="btn-loader hidden"><i class="fa-solid fa-spinner fa-spin"></i> Processing...</span>
+                </button>
+              </form>
+
+              <!-- FORM 2: GENERAL CONTACT FORM -->
+              <form id="formContact" class="app-form hidden-form" novalidate>
+                <div class="form-group">
+                  <label for="contactName">Full Name <span class="required">*</span></label>
+                  <input type="text" id="contactName" class="form-control" placeholder="e.g. John Doe" required>
+                  <span class="error-msg">Please enter your name</span>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactEmail">Email Address <span class="required">*</span></label>
+                    <input type="email" id="contactEmail" class="form-control" placeholder="john@example.com" required>
+                    <span class="error-msg">Please enter a valid email</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="contactPhone">Phone Number</label>
+                    <input type="tel" id="contactPhone" class="form-control" placeholder="(512) 000-0000">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage">Message <span class="required">*</span></label>
+                  <textarea id="contactMessage" rows="5" class="form-control" placeholder="How can we help you?" required></textarea>
+                  <span class="error-msg">Please write a short message</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-lg">
+                  <span class="btn-text">Send Message</span>
+                  <span class="btn-loader hidden"><i class="fa-solid fa-spinner fa-spin"></i> Sending...</span>
+                </button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#home" class="logo footer-logo nav-link" data-page="home">
+          <i class="fa-solid fa-sparkles font-accent"></i> FreshNest Cleaning
+        </a>
+        <p class="footer-desc">Professional, reliable residential and commercial cleaning services across Austin, Texas.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home" class="nav-link" data-page="home">Home</a></li>
+          <li><a href="#services" class="nav-link" data-page="services">Services</a></li>
+          <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+          <li><a href="#contact" class="nav-link" data-page="contact">Contact & Free Quote</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Contact Us</h4>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-phone"></i> +1 (512) 555-0147</li>
+          <li><i class="fa-solid fa-envelope"></i> hello@freshnestcleaning.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Austin, Texas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>&copy; 2026 FreshNest Cleaning. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span class="divider">•</span>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
